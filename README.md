@@ -19,6 +19,9 @@ var version = 1.
 
 实测Three.js的r88、r89可用。
 
+# TODO 待完善
+* 材质的读取方法需要适配微信小游戏
+
 
 请搭配 weapp-adapter 使用
 
