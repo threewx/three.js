@@ -1,6 +1,6 @@
 # three.wx.js
 
-[Three.js引擎最后Release版本网址](https://github.com/mrdoob/three.js/releases/latest)
+[Three.js引擎最后Release](https://github.com/mrdoob/three.js/releases/latest)
 
 [微信小游戏开发文档](https://mp.weixin.qq.com/debug/wxagame/dev/index.html)
 
