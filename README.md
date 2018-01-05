@@ -10,18 +10,18 @@
 将此行代码（各个Three.js的版本对应行数不同，所以无法提供具体行数，请善用文本搜索功能）
 ```javascript
 var version = parseFloat( /^WebGL\ ([0-9])/.exec( gl.getParameter( gl.VERSION ) )[ 1 ] );
-//改为
+//改为（方案二选一）
 var version = 1.
 //或
 var version = parseFloat( /^(WebGL|OpenGL ES)\ ([0-9])/.exec( gl.getParameter( gl.VERSION ) )[ 1 ] );
 ```
-将three.js出现多处的
+将出现多处的
 ```javascript
 document.createElementNS('http://www.w3.org/1999/xhtml','canvas');
 document.createElementNS('http://www.w3.org/1999/xhtml','img');
 //替换为
 document.createElement('canvas');
-document.createElementNS('img');
+document.createElement('img');
 ```
 即可在真机微信端预览。
 
