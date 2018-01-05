@@ -1,8 +1,10 @@
-# three.wx.js
+# three.js
 
 [Three.js引擎最后Release](https://github.com/mrdoob/three.js/releases/latest)
 
 [微信小游戏开发文档](https://mp.weixin.qq.com/debug/wxagame/dev/index.html)
+
+[关于在小游戏中使用Three.js的详细步骤文章](https://indienova.com/indie-game-development/run-threejs-on-wechat-game-platform/)
 
 
 来自QQ群 117844722 的群友 毒药的药 分享
